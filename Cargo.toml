@@ -1,0 +1,43 @@
+[package]
+name = "ABR1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+rocket = "0.5.0-rc.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+surrealdb = "1.0.0-beta.9"
+#yew = { version = "0.22", features = ["web_sys"] }
+yew = { version = "0.19" }
+yew-router = "0.16"
+yew_styles = "0.10"
+tauri = "1.0"
+#difference = "2.0"
+printpdf = "0.3.3"
+
+#[dependencies]
+#wasm-bindgen = "0.2"
+#js-sys = "0.3"
+#web-sys = "0.3"
+soup2-sys = "0.2.0"
+#tauri-soup = "0.14.0"
+#tauri-soup-sys = "0.14.1"
+
+# Include the text-diff, web-diff, and visual-diff libraries you want to use
+#text_diff_lib = "x.y.z"
+#web_diff_lib = "x.y.z"
+#visual_diff_lib = "x.y.z"
+
+rusqlite = "0.26"
+
+web-sys = { version = "0.3", features = ["Window","HtmlIFrameElement"] }
+
+
+htmldiff = "0.1.0"
+difference = "2.0.0"
+wasm-bindgen = "0.2.79"
+js-sys = "0.3.57"
